@@ -2,8 +2,8 @@
   "build": {
     "beforeBuildCommand": "yarn build",
     "beforeDevCommand": "yarn start",
-    "devPath": "https://surrealreact.fly.dev/",
-    "distDir": "https://surrealreact.fly.dev/",
+    "devPath": "http://localhost:6501/",
+    "distDir": "../out",
     "withGlobalTauri": true
 
   },
