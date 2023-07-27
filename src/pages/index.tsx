@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       <Head>
         <title>SurrealReact</title>
         <meta name="description" content="SurrealDB explorer with nextjs" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <main>
         {appstate.connected ? (
