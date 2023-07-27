@@ -2,8 +2,10 @@
   "build": {
     "beforeBuildCommand": "yarn build",
     "beforeDevCommand": "yarn start",
-    "devPath": "http://localhost:6501",
-    "distDir": "../.next/static"
+    "devPath": "https://surrealreact.fly.dev/",
+    "distDir": "https://surrealreact.fly.dev/",
+    "withGlobalTauri": true
+
   },
   "package": {
     "productName": "surrealdb-gui",
@@ -20,7 +22,9 @@
       "deb": {
         "depends": []
       },
-      "externalBin": [],
+      "externalBin": [
+
+      ],
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
